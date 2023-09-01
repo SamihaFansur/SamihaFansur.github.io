@@ -35,10 +35,19 @@
 	background-color: #63a4e628;
 }
 
+.project-thumbnail {
+    width: 200px;  /* Adjust this value to increase or decrease the size */
+    height: 200px;  /* Adjust this value to increase or decrease the size */
+    overflow: hidden;  /* Ensures that the image doesn't overflow the container */
+    position: relative;
+}
+
 .project-thumbnail img {
-	max-width: 150px;
-	border-radius: 10px;
-	margin-left: 10px;
+    display: block;
+    width: 100%;  /* This will make sure the image takes the full width of the container */
+    height: 100%;  /* This ensures the image takes the full height of the container */
+    object-fit: cover;  /* This ensures that the image covers the container fully */
+    object-position: center;  /* This centers the image within the container */
 }
 
 .project-content {
@@ -55,12 +64,6 @@
     align-items: center;
     text-decoration: none;
     color: inherit;
-}
-
-.projects-list img {
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
 }
 
 .projects-list h3 {
