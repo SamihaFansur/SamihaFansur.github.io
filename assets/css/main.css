@@ -129,6 +129,9 @@
     justify-content: center;
     list-style-type: none;
 }
+.contact-details {
+	text-align: center;
+}
 
 .github-link {
     padding: 5px 10px;
