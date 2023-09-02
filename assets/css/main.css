@@ -55,6 +55,7 @@ body {
     transition: transform 0.3s ease; /* This line ensures a smooth transition when scaling the image */
 }
 
+
 .tech-icons span {
     margin-right: 5px;
 	margin-bottom: 10px;
@@ -226,6 +227,7 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+
 
 	}
 
